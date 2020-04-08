@@ -4,47 +4,46 @@
   
   <url>
     <loc>https://best-jf.github.io/</loc>
-    <lastmod>2020-04-08T14:39:55+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://best-jf.github.io/post/blog/</loc>
-    <lastmod>2020-04-08T14:39:55+08:00</lastmod>
+    <lastmod>2020-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://best-jf.github.io/post/</loc>
-    <lastmod>2020-04-08T14:39:55+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://best-jf.github.io/categories/</loc>
-    <lastmod>2020-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://best-jf.github.io/tags/tag1/</loc>
-    <lastmod>2020-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://best-jf.github.io/tags/tag2/</loc>
-    <lastmod>2020-04-07T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://best-jf.github.io/tags/</loc>
-    <lastmod>2020-04-07T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://best-jf.github.io/categories/tech/</loc>
-    <lastmod>2020-04-07T00:00:00+00:00</lastmod>
+    <loc>https://best-jf.github.io/post/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%97%AE%E9%A2%98/</loc>
+    <lastmod>2020-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://best-jf.github.io/tags/%E7%AE%97%E6%B3%95/</loc>
+    <lastmod>2020-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://best-jf.github.io/tags/git/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://best-jf.github.io/tags/hugo/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://best-jf.github.io/post/%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E5%91%BD%E4%BB%A4/</loc>
-    <lastmod>2020-04-07T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://best-jf.github.io/categories/</loc>
   </url>
   
 </urlset>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>算法 on Best-jf Blog</title>
+    <link>https://best-jf.github.io/tags/%E7%AE%97%E6%B3%95/</link>
+    <description>Recent content in 算法 on Best-jf Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://best-jf.github.io/tags/%E7%AE%97%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>大数据问题</title>
+      <link>https://best-jf.github.io/post/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Thu, 02 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://best-jf.github.io/post/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%97%AE%E9%A2%98/</guid>
+      <description>大数据问题 布隆过滤器 如果使用哈希表则需要的内存空间为64B*100亿，至少需要64GB。 哈希函数：1.无线的输入域 2.不同的输入值得到的返回</description>
+    </item>
+    
+  </channel>
+</rss>
