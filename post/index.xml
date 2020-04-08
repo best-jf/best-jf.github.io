@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My New Hugo Site</title>
+    <title>Posts on best-jf Blog</title>
     <link>https://best-jf.github.io/post/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
+    <description>Recent content in Posts on best-jf Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 08 Apr 2020 14:39:55 +0800</lastBuildDate>
@@ -17,21 +17,16 @@
       <pubDate>Wed, 08 Apr 2020 14:39:55 +0800</pubDate>
       
       <guid>https://best-jf.github.io/post/blog/</guid>
-      <description>大数据问题 布隆过滤器 如果使用哈希表则需要的内存空间为64B*100亿，至少需要64GB。
-哈希函数：1.无线的输入域 2.不同的输入值得到的返回值能均匀的分布在s上 。
-布隆过滤器：有一个长度为m的bit类型的数组，假设有k个哈希函数，互相完全独立，对所有计算出来的结果取m余数，将bit上面的位置设置为1。完成所有的url的这样的过程。
-判断：值的所有哈希算出来的位置都应该为1，则需要被过滤，也有可能出现错误过滤的情况，如果数组数量较小的话，所以需要合理的建立m和输入的个数，防止错误数据，我们也可以建立白名单。
-第二题 直接的办法：使用哈希表对数据直接进行词频统计，使用Map的key，value的值，20亿个数据
-使用32位的整数可以完全表示他出现的次数，所以哈希表的key和value假设都需要4B，如果20亿的数据都不一样则需要20亿*8B的空间，导致内存溢出。
-解决办法就是将20一个数据通过哈希函数分成16个小文件，同一个数不可能到不同的小文件中，然后找到每个小文件中最大的数据，进行比较就可以知道出现次数最多的。
-第三题 直接办法：哈希表肯定不符合要求
-使用bitmap 申请一个长度为4294967295 bit类型的数组bitArray，8个bit 一个B，所以所要占用的空间为500MB ，每次有数据就把那个位置置为1，最后进行遍历。
-进阶：1.根据内存限制，确定统计区间的大小
-​ 2.区间计数，判断哪一个区间缺少数据
-​ 3.对缺少数据的区间进行bitmap的操作
-第四题 首先需要询问资源上有哪一些的限制，包括内存、计算时间等等。使用哈希函数将大文件分配成小文件。小文件分给不同的机器，对小文件进行哈希表的遍历，找出重复的url，在遍历的过程中使用小根堆来选出文件中top100小的文件，然后对所有的top100小的文件继续进行小根堆的排序完成topk的统计。
-第五题 设计一个bit数组，长度为2*4294967295，遍历这么多数据，如果有第一个则将2 num位置和2num+1位置改为01，如果继续出现，改为10，继续改为11，当为11时就不进行改变，最后遍历这个bit数组，找出所有10位置的数据。
-一致性哈希 缓存策略哈希值对新机器进行取模操作，会造成大量的数据迁移，这个时候需要用一致性哈希的算法，顺时针寻找最近的节点，在添加时调整的代价比较少，而机器负载不均匀时为了解决数据倾斜问题，引入了虚拟节点。</description>
+      <description>大数据问题 布隆过滤器 如果使用哈希表则需要的内存空间为64B*100亿，至少需要64GB。 哈希函数：1.无线的输入域 2.不同的输入值得到的返回</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://best-jf.github.io/post/4.8%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://best-jf.github.io/post/4.8%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA/</guid>
+      <description>如何创建一个博客 安装hugo 安装git 把格式下载下来放到theme目录下。 hugo server -t cleanwhite --buildDrafts hugo --theme=cleanwhite --baseUrl=&amp;quot;https://best-jf.github.io/&amp;quot; --buildDrafts git init git add . git commit -m &amp;ldquo;我的第一次&amp;rdq</description>
     </item>
     
   </channel>
