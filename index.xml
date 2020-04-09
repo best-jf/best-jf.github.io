@@ -6,10 +6,28 @@
     <description>Recent content on Best-jf Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://best-jf.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>操作系统</title>
+      <link>https://best-jf.github.io/post/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</link>
+      <pubDate>Sat, 04 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://best-jf.github.io/post/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</guid>
+      <description>操作系统 1.操作系统 1.操作系统是管理计算机硬件和软件资源的程序，是计算机的内核和基石。 2.操作系统的本质是运行在计算机上的软件程序。 3.操</description>
+    </item>
+    
+    <item>
+      <title>计算机网络</title>
+      <link>https://best-jf.github.io/post/%E7%BD%91%E7%BB%9C/</link>
+      <pubDate>Fri, 03 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://best-jf.github.io/post/%E7%BD%91%E7%BB%9C/</guid>
+      <description>1.应用层：通过应用进程间的交互来完成特定网络应用。应用层协议的定义是应用进程间的通信和交互的规则，不同的网络应用对应不同的规则协议，域名系</description>
+    </item>
     
     <item>
       <title>大数据问题</title>
