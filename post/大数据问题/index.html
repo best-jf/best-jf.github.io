@@ -216,14 +216,14 @@
 </nav>
                 
                 <h1 id="大数据问题">大数据问题</h1>
-<p><a href="https://github.com/best-jf/Figurebed/blob/master/img/image-20200408095707501.png">https://github.com/best-jf/Figurebed/blob/master/img/image-20200408095707501.png</a></p>
+<p><img src="https://github.com/best-jf/Figurebed/blob/master/img/image-20200408095707501.png" alt=""></p>
 <h2 id="布隆过滤器">布隆过滤器</h2>
 <p><img src="%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%97%AE%E9%A2%98.assets/image-20200408095707501.png" alt="image-20200408095707501"></p>
-<p><a href="https://github.com/best-jf/Figurebed/raw/master/img/image-20200408095707501.png">https://github.com/best-jf/Figurebed/raw/master/img/image-20200408095707501.png</a></p>
 <p>如果使用哈希表则需要的内存空间为64B*100亿，至少需要64GB。</p>
 <p>哈希函数：1.无线的输入域  2.不同的输入值得到的返回值能均匀的分布在s上 。</p>
 <p>布隆过滤器：有一个长度为m的bit类型的数组，假设有k个哈希函数，互相完全独立，对所有计算出来的结果取m余数，将bit上面的位置设置为1。完成所有的url的这样的过程。</p>
 <p>判断：值的所有哈希算出来的位置都应该为1，则需要被过滤，也有可能出现错误过滤的情况，如果数组数量较小的话，所以需要合理的建立m和输入的个数，防止错误数据，我们也可以建立白名单。</p>
+<p><img src="https://github.com/best-jf/Figurebed/raw/master/img/image-20200408095707501.png" alt=""></p>
 <h2 id="第二题">第二题</h2>
 <p><img src="%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%97%AE%E9%A2%98.assets/image-20200408100829289.png" alt="image-20200408100829289"></p>
 <p>直接的办法：使用哈希表对数据直接进行词频统计，使用Map的key，value的值，20亿个数据</p>
